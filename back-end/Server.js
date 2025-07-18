@@ -14,4 +14,4 @@ mongoose.connect('mongodb+srv://ayushmartandas:Khushi04@cluster0.r0qomse.mongodb
 app.use('/api/users', userRoutes);
 app.use('/api/claim', claimRoutes);
 
-app.listen(5000, () => console.log('Server running on port 5000'));
+module.exports = app;
